@@ -1,18 +1,18 @@
 function generate_excuse() {
   
   const adverbs = [
-    "Aggressively",
-    "Automagically",
+    "aggressively",
+    "automagically",
     "dramatically",
     "dramatically",
     "excessively",
-    "Fails to",
+    "fails to",
     "inappropriately",
     "incorrectly",
     "inefficiently",
     "objectively",
     "poorly",
-    "Violently",
+    "violently",
     "unexpectedly",
   ]
 
@@ -135,7 +135,7 @@ function generate_excuse() {
     "system",
     "tech debt",
     "terminal",
-    "Test coverage",
+    "test coverage",
     "values",
     "variable",
     "process",
@@ -148,7 +148,8 @@ function generate_excuse() {
   ]
 
   const excuse_output = document.getElementById("excuse_output")
-  excuse_output.innerHTML = get_random_array_element(sentences)
+  excuse_output.innerHTML = `✨ ${get_random_array_element(sentences)} ✨`
+  excuse_output.classList.remove("hidden")
 }
 
 function get_random_array_element(array) {
