@@ -10,10 +10,13 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <main class="bg-yellow-100 min-h-screen flex flex-col items-center">
-    <h1 class="text-center text-5xl font-bold">Do you need an excuse?</h1>
-    <button class="mx-auto my-10 p-2 text-lg text-blue-600 bg-blue-200 text-center border-2 border-blue-600 rounded-lg" onclick="generate_excuse()">Give me an excuse</button>
-    <h1 class="hidden text-center text-2xl bg-white border p-2 rounded-lg" id="excuse_output"></h1>
+  <main class="bg-yellow-100 min-h-screen flex flex-col items-center text-hostgator-gray">
+    <h1 class="mt-10 text-center text-5xl">Do you need an excuse?</h1>
+    <div class="flex justify-center items-center my-10">
+      <img src="assets/HG-Snappy.svg" alt="Snappy" class="h-64 mx-10">
+      <button class="mx-auto p-4 h-16 text-lg text-hostgator-dark-blue bg-hostgator-yellow text-center border-4 border-hostgator-dark-blue hover:shadow transform hover:-translate-y-px" onclick="generate_excuse()">Give me an excuse</button>
+    </div>
+    <h1 class="hidden text-center text-2xl bg-hostgator-yellow border-2 p-2 rounded-lg border-hostgator-dark-blue" id="excuse_output"></h1>
   </main>  
 </body>
 </html>

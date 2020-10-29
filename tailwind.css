@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
+
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  src: url(./fonts/Galano_Grotesque_Alt.otf);
+}
+
+@font-face {
+  font-family: 'Galano Grotesque Alt Bold';
+  src: url(./fonts/Galano_Grotesque_Alt_Bold.otf);
+}
+
 @tailwind utilities;
+
+
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  src: local('Galano Grotesque Alt'), url(./fonts/Galano_Grotesque_Alt.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  src: local('Galano Grotesque Alt'), url(./fonts/Galano_Grotesque_Alt.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  src: local('Galano Grotesque Alt'), url(./fonts/Galano_Grotesque_Alt.ttf) format('ttf');
+}
