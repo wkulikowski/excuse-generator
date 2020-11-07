@@ -148,7 +148,7 @@ function generate_excuse() {
   ]
 
   const excuse_output = document.getElementById("excuse_output")
-  excuse_output.innerHTML = `🐊 ${get_random_array_element(sentences)} 🐊`
+  excuse_output.innerHTML = `${get_random_array_element(sentences)}`
   excuse_output.classList.remove("hidden")
 }
 
